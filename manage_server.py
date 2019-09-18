@@ -84,17 +84,18 @@ def manage_server(token, gameserver_name, action):
     print(r.text) 
 
 ########################################################################################################
-
-if len(args.action) > 0:
-    token = auth__oauth2()
-    print(token)
-    if token is not False:
-        if len(args.name) > 0:
-            gameserver_name = args.name
-        else:
-            gameserver_name = "mc2_test"
-            
-        if args.action == "start":
-            manage_server(token, gameserver_name, "start")
-        elif args.action == "stop":
-            manage_server(token, gameserver_name, "stop")
+if type(args.action) == type(None):
+    parser.print_help()
+else:
+    if len(args.action) > 0:
+        token = auth__oauth2()
+        if token is not False:
+            if len(args.name) > 0:
+                gameserver_name = args.name
+            else:
+                gameserver_name = "mc2_test"
+                
+            if args.action == "start":
+                manage_server(token, gameserver_name, "start")
+            elif args.action == "stop":
+                manage_server(token, gameserver_name, "stop")

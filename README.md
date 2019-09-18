@@ -16,8 +16,9 @@ best regards
 Sascha :)
 
 ## Installation
- -- Coming soon --
+
  
  - requirements:
   - python3
  
+    rest  -- Coming soon --

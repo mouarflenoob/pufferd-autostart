@@ -3,7 +3,7 @@ autostart for servers via oauth2 & remote requests
 
 
 
-# Introduction
+## Introduction
 
 Hello,
 
@@ -14,3 +14,10 @@ Feel free to ask anything u want to know
 best regards
 
 Sascha :)
+
+## Installation
+ -- Coming soon --
+ 
+ - requirements:
+  - python3
+ 

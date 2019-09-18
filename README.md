@@ -22,3 +22,6 @@ Sascha :)
   - python3
  
     rest  -- Coming soon --
+
+### TODO
+ - Token/Authentication ErrorHandling

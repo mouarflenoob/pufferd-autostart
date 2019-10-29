@@ -12,12 +12,12 @@ from urllib.parse import urlparse, parse_qs
 import requests
 from argparse import ArgumentParser
 
-client_id = 'Rasputin12'                # SampleData
-client_secret = '1888inasimpleway123'   # generated secret key via panel
+client_id = 'clientId'                # SampleData
+client_secret = 'th3secr3tke7'   # generated secret key via panel
 
-server_ip="95.217.59.142"               
-server_port=5656
-server_name="mc2.wyl-server.host"
+server_ip="11.22.33.44"               
+server_port=5656                 #default = 5656
+server_name="my.webserver.host"
 
 parser = ArgumentParser()
 parser.add_argument("-a", "--action", dest="action",
